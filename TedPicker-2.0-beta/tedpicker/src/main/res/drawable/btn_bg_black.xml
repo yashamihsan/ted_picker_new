@@ -1,0 +1,11 @@
+<!--
+  ~ Copyright (c) 2016. Ted Park. All Rights Reserved
+  -->
+
+<!--
+This drawable can be removed when we minSdkVersion=21.
+That is when we are going to use FAB
+for the camera button and this drawable will be obsolete.-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_black" />
+</selector>

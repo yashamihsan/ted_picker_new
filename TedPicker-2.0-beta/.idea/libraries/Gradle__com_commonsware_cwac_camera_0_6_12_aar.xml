@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.commonsware.cwac:camera:0.6.12@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/2912f9b1d3b3f27ba3c4682033c215d4ddb67bbf/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/2912f9b1d3b3f27ba3c4682033c215d4ddb67bbf/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
