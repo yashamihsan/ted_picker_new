@@ -277,9 +277,17 @@ public class ImagePickerActivity extends AppCompatActivity implements CameraHost
 
         for (int i = 0; i < mSelectedImages.size(); i++) {
 
-            if (mSelectedImages.get(i).getOriginalUri().equals(uri)){
-                mSelectedImages.remove(i);
-                break;
+            if (mConfig.isImageCompression()){
+                if (mSelectedImages.get(i).getCompressUri().equals(uri)){
+                    mSelectedImages.remove(i);
+                    break;
+                }
+            }
+            else {
+                if (mSelectedImages.get(i).getOriginalUri().equals(uri)) {
+                    mSelectedImages.remove(i);
+                    break;
+                }
             }
         }
 
