@@ -392,7 +392,7 @@ public class CwacCameraFragment extends Fragment implements View.OnClickListener
             @Override
             public void onAnimationEnd(Animator animation) {
                 vShutter.setVisibility(View.GONE);
-                mProgressDialog.show();
+                //mProgressDialog.show();
 
             }
         });
